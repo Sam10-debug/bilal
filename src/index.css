@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn button:first-of-type{
+	background-color: #fdb818;
+}
+.btn button:last-of-type{
+	color: #fdb818;
+}
+.btn button:first-of-type:hover{
+	color: #fdb818;
+	background-color: #fff;
+	border: 1px solid #fdb818;
+}
+.btn button:last-of-type:hover{
+	background-color: #fdb818;
+	color: #fff;
+}
+.identity{
+	color: #881212;
+}
+.btn-b{
+	background-color: #881212;
+}
+.btn-b:hover{
+	background-color: #fff;
+	color: #881212;
+	border: 1px solid #881212;
+}
+.next,.prev{
+	border: 2px solid #881212;
+}
+.choose{
+	color: #881212;
+}
+.foot{
+	background-color: #212121;
+	color: #b1b1b1
+}
+.founders{
+	background-color: #fc6020;
+}
+.vision{
+	background-color: #56c5e9;
+}
+nav ul li:hover{
+	color: #56c5e9;
+	border-top: 1px solid black;
+	transition: all 5ms ease-in-out;
+}
+
